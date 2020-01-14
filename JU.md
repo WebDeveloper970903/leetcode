@@ -7,6 +7,7 @@
  > solusion
  
     ```
+    
      * * var twoSum = function(nums, target) {
         let res = [];
         for( let i = 0 ; i < nums.length ; i++)
@@ -18,4 +19,5 @@
             }
         return res;
     }; * *
+    
     ```
