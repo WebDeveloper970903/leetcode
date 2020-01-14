@@ -2,7 +2,7 @@
 
  > question
     
-    Get index of two parameters in nums array that those sum is equal with target number.
+    Get index of two elements in nums array that those sum is equal with target number.
     
  > solusion
  
