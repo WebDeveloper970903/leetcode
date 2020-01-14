@@ -1,6 +1,6 @@
 ## 01/14
 
- > question
+ >> question
     
     Get index of two parameters in nums array that those sum is equal with target number.
     
@@ -17,4 +17,20 @@
             }
         return res;
     }; 
+    
+ > question
+    
+    Reverse number if revrese result is longer than 32 bit return zero.
+    
+ > solusion
+ 
+     var reverse = function(x) {
+        let str = "" + Math.abs(x);
+        str = str.split("").reverse().join("");
+        if(x>0){
+            return str*(1)<(Math.pow(2,31)-1)?str*(1):0;
+        }else{
+            return str*(-1)>(0-Math.pow(2,31))?str*(-1):0;
+        }
+    };
     
