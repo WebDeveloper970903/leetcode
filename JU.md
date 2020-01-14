@@ -5,6 +5,7 @@
     Get index of two parameters in nums array that those sum is equal with target number.
     
  > solusion
+ 
     ```
      * * var twoSum = function(nums, target) {
         let res = [];
