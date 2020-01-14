@@ -22,7 +22,7 @@
     
  > question
     
-    Reverse number if revrese result is longer than 32 bit return zero.
+    Reverse number and if revrese result is longer than 32 bit return zero.
     
  > solusion
  
