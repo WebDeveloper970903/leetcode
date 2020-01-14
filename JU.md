@@ -1,6 +1,6 @@
 ## 01/14
 
- >> question
+ > question
     
     Get index of two parameters in nums array that those sum is equal with target number.
     
